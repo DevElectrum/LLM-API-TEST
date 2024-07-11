@@ -1,0 +1,200 @@
+{
+    "metrics": {
+        "component": {
+            "key": "buildpiper_api-ai",
+            "name": "buildpiper_api-ai",
+            "qualifier": "TRK",
+            "measures": [
+                {
+                    "metric": "critical_violations",
+                    "value": "12",
+                    "bestValue": false
+                },
+                {
+                    "metric": "new_violations",
+                    "period": {
+                        "index": 1,
+                        "value": "1",
+                        "bestValue": false
+                    }
+                },
+                {
+                    "metric": "coverage",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "65758"
+                },
+                {
+                    "metric": "reliability_rating",
+                    "value": "5.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "major_violations",
+                    "value": "1299",
+                    "bestValue": false
+                },
+                {
+                    "metric": "file_complexity",
+                    "value": "14.7"
+                },
+                {
+                    "metric": "sqale_index",
+                    "value": "14496",
+                    "bestValue": false
+                },
+                {
+                    "metric": "functions",
+                    "value": "3112"
+                },
+                {
+                    "metric": "minor_violations",
+                    "value": "657",
+                    "bestValue": false
+                },
+                {
+                    "metric": "classes",
+                    "value": "1942"
+                },
+                {
+                    "metric": "violations",
+                    "value": "2046",
+                    "bestValue": false
+                },
+                {
+                    "metric": "bugs",
+                    "value": "95",
+                    "bestValue": false
+                },
+                {
+                    "metric": "new_lines",
+                    "period": {
+                        "index": 1,
+                        "value": "18"
+                    }
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "95.9",
+                    "bestValue": false
+                },
+                {
+                    "metric": "vulnerabilities",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "security_remediation_effort",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "lines_to_cover",
+                    "value": "47749"
+                },
+                {
+                    "metric": "new_bugs",
+                    "period": {
+                        "index": 1,
+                        "value": "0",
+                        "bestValue": true
+                    }
+                },
+                {
+                    "metric": "duplicated_lines",
+                    "value": "76750",
+                    "bestValue": false
+                },
+                {
+                    "metric": "new_code_smells",
+                    "period": {
+                        "index": 1,
+                        "value": "1",
+                        "bestValue": false
+                    }
+                },
+                {
+                    "metric": "blocker_violations",
+                    "value": "1",
+                    "bestValue": false
+                },
+                {
+                    "metric": "code_smells",
+                    "value": "1951",
+                    "bestValue": false
+                },
+                {
+                    "metric": "lines",
+                    "value": "80002"
+                },
+                {
+                    "metric": "line_coverage",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "alert_status",
+                    "value": "ERROR"
+                },
+                {
+                    "metric": "complexity",
+                    "value": "9393"
+                },
+                {
+                    "metric": "new_vulnerabilities",
+                    "period": {
+                        "index": 1,
+                        "value": "0",
+                        "bestValue": true
+                    }
+                },
+                {
+                    "metric": "comment_lines_density",
+                    "value": "4.9",
+                    "bestValue": false
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "sqale_debt_ratio",
+                    "value": "0.7",
+                    "bestValue": false
+                },
+                {
+                    "metric": "info_violations",
+                    "value": "77",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "646"
+                },
+                {
+                    "metric": "duplicated_blocks",
+                    "value": "956",
+                    "bestValue": false
+                },
+                {
+                    "metric": "comment_lines",
+                    "value": "3352"
+                },
+                {
+                    "metric": "reliability_remediation_effort",
+                    "value": "194",
+                    "bestValue": false
+                },
+                {
+                    "metric": "uncovered_lines",
+                    "value": "47749",
+                    "bestValue": false
+                }
+            ]
+        }
+    }
+}

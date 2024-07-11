@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KV7GM6L');
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SonarCloud</title>
+    <script type="module" crossorigin src="/main-887c0340.js"></script>
+    <link rel="modulepreload" crossorigin href="/vendor-26cfbe4d.js">
+    <link rel="modulepreload" crossorigin href="/sentry-a913fda4.js">
+    <link rel="modulepreload" crossorigin href="/messages-7c462d3d.js">
+    <link rel="modulepreload" crossorigin href="/lodash-01f125f5.js">
+    <link rel="modulepreload" crossorigin href="/ThemeProvider-6360c96c.js">
+    <link rel="stylesheet" href="/ThemeProvider-cee0e4fa.css">
+    <link rel="stylesheet" href="/sonar-36f8831d.css">
+</head>
+
+<body id="sonarcloud">
+    <div id="root"></div>
+
+    <div id="content_legacy" style="display: none">
+        <style>
+            *,
+            :after,
+            :before {
+                margin: 0;
+                padding: 0;
+            }
+
+            #content_legacy {
+                height: 100vh;
+                min-width: 1080px;
+                background-color: #262626;
+                color: #cdcdcd;
+                font-size: 13px;
+                line-height: 1.4;
+                font-family: monospace;
+            }
+
+            #content_legacy .terminal {
+                padding: 1rem;
+                background-color: #262626;
+            }
+
+            #content_legacy .logo {
+                height: 60px;
+                vertical-align: top;
+            }
+
+            #content_legacy .warning-msg {
+                font-size: 15px;
+                padding: 1rem 0.5rem;
+            }
+
+            #content_legacy .warning-msg svg {
+                vertical-align: top;
+                overflow: visible;
+                width: 18px;
+                height: 18px;
+                fill: #eabe06;
+                fill-rule: evenodd;
+                clip-rule: evenodd;
+                stroke-linejoin: round;
+                stroke-miterlimit: 1.41421;
+            }
+
+            #content_legacy .command,
+            #content_legacy .result {
+                margin: 0.5rem;
+            }
+
+            #content_legacy .command {
+                margin-top: 0.7rem;
+            }
+
+            #content_legacy .command::before {
+                content: '> ';
+            }
+
+            #content_legacy .languages-list ul {
+                max-width: 40rem;
+            }
+
+            #content_legacy .languages-list li {
+                float: left;
+                width: 10rem;
+            }
+
+            #content_legacy .languages-list ::after {
+                clear: both;
+                content: '';
+                display: table;
+            }
+
+            #content_legacy pre {
+                font-size: 12px;
+                line-height: 1.4;
+                font-family: monospace;
+            }
+
+            #content_legacy a {
+                color: #fd6a00;
+                border-bottom: 1px solid #db5700;
+                cursor: pointer;
+                outline: none;
+                text-decoration: none;
+            }
+
+            #content_legacy ul {
+                list-style: none outside none;
+            }
+        </style>
+        <div class="terminal">
+            <div aria-label="Outdated browser">
+                <pre aria-hidden="true">
+                </pre>
+            </div>
+            <div class="warning-msg">
+                <svg aria-labelledby="warningTitle" role="img" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                    <title id="warningTitle">Warning!</title>
+                    <path
+                        d="M9 12.242v-1.484c0-.14-.11-.258-.25-.258h-1.5c-.14 0-.25.117-.25.258v1.484c0 .14.11.258.25.258h1.5c.14 0 .25-.117.25-.258zM8.984 9.32l.141-3.586a.189.189 0 0 0-.078-.148C9 5.546 8.93 5.5 8.859 5.5H7.141c-.07 0-.141.047-.188.086-.055.039-.078.117-.078.164l.133 3.57c0 .102.117.18.265.18H8.72c.14 0 .258-.078.265-.18zm-.109-7.297l6 11A1 1 0 0 1 14 14.5H2a1 1 0 0 1-.875-1.477l6-11a.994.994 0 0 1 1.75 0z" />
+                </svg>
+                Your browser version is outdated and no longer supported. We recommend upgrading to the
+                latest <a href="https://www.microsoft.com/edge/">Edge</a>,
+                <a href="https://www.mozilla.org/firefox/new/">Firefox</a>,
+                <a href="https://www.google.com/chrome/">Google Chrome</a> or
+                <a href="https://www.apple.com/safari/download/">Safari</a> version.
+            </div>
+            <div class="command">open sonarcloud-logo.svg</div>
+            <div class="result">
+                <img alt="SonarCloud logo" class="logo" src="/images/sonarcloud-logo.svg" />
+            </div>
+            <div class="command">cat sonarcloud-powers.txt</div>
+            <div class="result">
+                <ul>
+                    <li>Eliminate bugs and vulnerabilities.</li>
+                    <li>Champion quality code in your projects.</li>
+                    <li>Analyze your projects on GitHub, Bitbucket, Azure DevOps and GitLab.</li>
+                    <li>SonarCloud automatically analyzes branches and decorates pull requests.</li>
+                </ul>
+            </div>
+            <div class="command">ls supported-languages</div>
+            <div class="result languages-list">
+                <ul>
+                    <li>Java</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>C#</li>
+                    <li>Python</li>
+                    <li>C++</li>
+                    <li>Go</li>
+                    <li>Kotlin</li>
+                    <li>Ruby</li>
+                    <li>Swift</li>
+                    <li>ABAP</li>
+                    <li>Apex</li>
+                    <li>Flex</li>
+                    <li>C</li>
+                    <li>CSS</li>
+                    <li>HTML</li>
+                    <li>Objective-C</li>
+                    <li>PHP</li>
+                    <li>Scala</li>
+                    <li>T-SQL</li>
+                    <li>PL/SQL</li>
+                    <li>VB</li>
+                    <li>JSON</li>
+                    <li>XML</li>
+                    <li>COBOL</li>
+                    <li>AzureResourceManager</li>
+                    <li>CloudFormation</li>
+                    <li>Docker</li>
+                    <li>Kubernetes</li>
+                    <li>Terraform</li>
+                </ul>
+            </div>
+            <div class="command">ls help/</div>
+            <div class="result">
+                <ul>
+                    <li>
+                        <a href="https://community.sonarsource.com/c/help/sc">Support Forum</a>
+                    </li>
+                    <li>
+                        <a href="https://sonarcloud.statuspage.io/" rel="noopener noreferrer" target="_blank">
+                            Status
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="command">ls news/</div>
+            <div class="result">
+                <ul>
+                    <li>
+                        <a href="https://www.sonarsource.com/blog/tag/sonarcloud/">SonarCloud News</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/sonarcloud" rel="noopener noreferrer" target="_blank">
+                            Twitter
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="command">ls terms/</div>
+            <div class="result">
+                <ul>
+                    <li>
+                        <a href="/terms.pdf" target="_blank"> Terms </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="command">whoami</div>
+            <div class="result">
+                <ul>
+                    <li>© 2008-<span id="currentDatePlaceholder" />,</li>
+                    <li>
+                        SonarSource S.A, Switzerland. All content is copyright protected. SONAR, SONARSOURCE,
+                        SONARLINT, SONARQUBE and SONARCLOUD are trademarks of SonarSource SA.
+                    </li>
+                    <li>
+                        All other trademarks and copyrights are the property of their respective owners. All
+                        rights are expressly reserved.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        // supportedBrowsers regex is generated by the command 'yarn supported-browsers-update'
+        // prettier-ignore
+        const supportedBrowsers = /Edge?\/(8[89]|9\d|\d{3,})\.\d+(\.\d+|)|Firefox\/([1-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Chrom(ium|e)\/(8[89]|9\d|\d{3,})\.\d+(\.\d+|)|(Maci|X1{2}).+ Version\/(1[4-9]|[2-9]\d|\d{3,})\.\d+([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(9[5-9]|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(1[5-9]|[2-9]\d|\d{3,})[._]\d+([._]\d+|)|Android:?[ /-](12[2-9]|1[3-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Mobile Safari.+OPR\/([89]\d|\d{3,})\.\d+\.\d+|Android.+Firefox\/(12[3-9]|1[3-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(12[2-9]|1[3-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+(UC? ?Browser|UCWEB|U3)[ /]?(1[5-9]|[2-9]\d|\d{3,})\.\d+\.\d+|SamsungBrowser\/(2[2-9]|[3-9]\d|\d{3,})\.\d+|Android.+MQ{2}Browser\/(1[4-9]|[2-9]\d|\d{3,})(\.\d+|)(\.\d+|)|K[Aa][Ii]OS\/([3-9]|\d{2,})\.\d+(\.\d+|)/;
+
+        const isCrawler =
+            /Googlebot|AdsBot|bingbot|Slurp|LinkedInBot|msnbot|exabot|yandex|CloudWatchSynthetics/i;
+        if (supportedBrowsers.test(navigator.userAgent) || isCrawler.test(navigator.userAgent)) {
+            document.getElementById('content_legacy').remove();
+        } else {
+            document.getElementById('root').remove();
+            document.getElementById('content_legacy').style.display = 'block';
+            document.getElementById('currentDatePlaceholder').textContent = new Date().getFullYear();
+        }
+    </script>
+
+</body>
+
+</html>

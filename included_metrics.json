@@ -1,0 +1,39 @@
+{
+    "metrics": [
+        {
+            "metric": "reliability_rating",
+            "max_value": 5,
+            "equalizer": 1
+        },
+        {
+            "metric": "new_code_smells",
+            "max_value": 5,
+            "equalizer": 1
+        },
+        {
+            "metric": "new_vulnerabilities",
+            "max_value": 5,
+            "equalizer": 1
+        },
+        {
+            "metric": "sqale_index",
+            "max_value": 20000,
+            "equalizer": 0.00015
+        },
+        {
+            "metric": "security_rating",
+            "max_value": 5,
+            "equalizer": 1
+        },
+        {
+            "metric": "new_violations",
+            "max_value": 5,
+            "equalizer": 1
+        },
+        {
+            "metric": "new_bugs",
+            "max_value": 5,
+            "equalizer": 1
+        }
+    ]
+}
