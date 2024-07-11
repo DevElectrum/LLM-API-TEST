@@ -10,6 +10,7 @@ genai.configure(api_key='AIzaSyCfVmgpZngK_-si-ls09dM0IdMy2dSBYt0')
 #some random changes
 n , m = 0, 0
 abc = 2 * n + m
+abd = m - n
 
 model = genai.GenerativeModel(
     model_name = "gemini-1.5-flash",
