@@ -2,10 +2,14 @@
 import argparse, os, sys, random, string, webbrowser
 import google.generativeai as genai
 #tqdm adds progress bars
-from tqdm import tqdm
+import tqdm
 
 #OpenAI token for accessing chatGPT
 genai.configure(api_key='AIzaSyCfVmgpZngK_-si-ls09dM0IdMy2dSBYt0')
+
+#some random changes
+n , m = 0, 0
+abc = 2 * n + m
 
 model = genai.GenerativeModel(
     model_name = "gemini-1.5-flash",
